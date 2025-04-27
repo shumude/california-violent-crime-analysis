@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a00b725cd05b3df4d70be355816e5bbd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a00b725cd05b3df4d70be355816e5bbd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a00b725cd05b3df4d70be355816e5bbd = L.map(
+                "map_a00b725cd05b3df4d70be355816e5bbd",
+                {
+                    center: [37.0, -119.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d12d536820bb9bd46ef5869d35eeb96 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a00b725cd05b3df4d70be355816e5bbd);
+        
+    
+            var marker_cluster_e1f800fca6e53d5c9b21657b159f8402 = L.markerClusterGroup(
+                {}
+            );
+            map_a00b725cd05b3df4d70be355816e5bbd.addLayer(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+            var marker_cd216212e58447ce63d5133a89b2742b = L.marker(
+                [37.646445788501985, -121.88540281120429],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_534acdf49199db8ab063896f4fcb1285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_019de8d41657a4a0e35196c45d4eafeb = $(`<div id="html_019de8d41657a4a0e35196c45d4eafeb" style="width: 100.0%; height: 100.0%;">Alameda<br>Aggravated Assault: 138,046.0<br>Murder: 3,702.0<br>Robbery: 136,467.0<br>Violent Crime Total: 291,782.0</div>`)[0];
+                popup_534acdf49199db8ab063896f4fcb1285.setContent(html_019de8d41657a4a0e35196c45d4eafeb);
+            
+        
+
+        marker_cd216212e58447ce63d5133a89b2742b.bindPopup(popup_534acdf49199db8ab063896f4fcb1285)
+        ;
+
+        
+    
+    
+            marker_cd216212e58447ce63d5133a89b2742b.bindTooltip(
+                `<div>
+                     Alameda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2839c92badd985b74435505de0669a06 = L.marker(
+                [38.59712363022792, -119.82062225467072],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_4d84c8c181378f3aa8865f5c9bb613b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93c1eb8b07ade9b136502a3d1ff2ba8f = $(`<div id="html_93c1eb8b07ade9b136502a3d1ff2ba8f" style="width: 100.0%; height: 100.0%;">Alpine<br>Aggravated Assault: 113.0<br>Murder: 2.0<br>Robbery: 1.0<br>Violent Crime Total: 134.0</div>`)[0];
+                popup_4d84c8c181378f3aa8865f5c9bb613b5.setContent(html_93c1eb8b07ade9b136502a3d1ff2ba8f);
+            
+        
+
+        marker_2839c92badd985b74435505de0669a06.bindPopup(popup_4d84c8c181378f3aa8865f5c9bb613b5)
+        ;
+
+        
+    
+    
+            marker_2839c92badd985b74435505de0669a06.bindTooltip(
+                `<div>
+                     Alpine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a68ffeb58f9e736e6f4000d0545d07e = L.marker(
+                [38.446468273913304, -120.65088068200266],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_39b9c379184168d9e3c52365e3c78346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caa6678f347cf8517b855551950c4fac = $(`<div id="html_caa6678f347cf8517b855551950c4fac" style="width: 100.0%; height: 100.0%;">Amador<br>Aggravated Assault: 2,024.0<br>Murder: 12.0<br>Robbery: 170.0<br>Violent Crime Total: 2,553.0</div>`)[0];
+                popup_39b9c379184168d9e3c52365e3c78346.setContent(html_caa6678f347cf8517b855551950c4fac);
+            
+        
+
+        marker_5a68ffeb58f9e736e6f4000d0545d07e.bindPopup(popup_39b9c379184168d9e3c52365e3c78346)
+        ;
+
+        
+    
+    
+            marker_5a68ffeb58f9e736e6f4000d0545d07e.bindTooltip(
+                `<div>
+                     Amador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2479cc28fb7a84be56367e08f2a33444 = L.marker(
+                [39.66708011754661, -121.60082629859474],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_e9c16613794351692ccca4ed63fb3b26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d43830708a2c00809de813bda99614 = $(`<div id="html_c9d43830708a2c00809de813bda99614" style="width: 100.0%; height: 100.0%;">Butte<br>Aggravated Assault: 11,822.0<br>Murder: 183.0<br>Robbery: 3,894.0<br>Violent Crime Total: 18,098.0</div>`)[0];
+                popup_e9c16613794351692ccca4ed63fb3b26.setContent(html_c9d43830708a2c00809de813bda99614);
+            
+        
+
+        marker_2479cc28fb7a84be56367e08f2a33444.bindPopup(popup_e9c16613794351692ccca4ed63fb3b26)
+        ;
+
+        
+    
+    
+            marker_2479cc28fb7a84be56367e08f2a33444.bindTooltip(
+                `<div>
+                     Butte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d748e38dcc1604e0a65dd1cbd2e3389 = L.marker(
+                [38.20451760470636, -120.55424658629616],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_cfc2a0d10d77bea97fafbea6423417a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e181b79ebfbc7127590242fa6517128 = $(`<div id="html_0e181b79ebfbc7127590242fa6517128" style="width: 100.0%; height: 100.0%;">Calaveras<br>Aggravated Assault: 1,523.0<br>Murder: 28.0<br>Robbery: 160.0<br>Violent Crime Total: 1,926.0</div>`)[0];
+                popup_cfc2a0d10d77bea97fafbea6423417a3.setContent(html_0e181b79ebfbc7127590242fa6517128);
+            
+        
+
+        marker_5d748e38dcc1604e0a65dd1cbd2e3389.bindPopup(popup_cfc2a0d10d77bea97fafbea6423417a3)
+        ;
+
+        
+    
+    
+            marker_5d748e38dcc1604e0a65dd1cbd2e3389.bindTooltip(
+                `<div>
+                     Calaveras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_260d35456f0b6f05f96e970a10b90082 = L.marker(
+                [39.177525739739565, -122.23684305976545],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_93b083a44b8654df1e33de4b7f3f17fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27b24881c9d57c5c90e3b04996d694a6 = $(`<div id="html_27b24881c9d57c5c90e3b04996d694a6" style="width: 100.0%; height: 100.0%;">Colusa<br>Aggravated Assault: 863.0<br>Murder: 16.0<br>Robbery: 139.0<br>Violent Crime Total: 1,134.0</div>`)[0];
+                popup_93b083a44b8654df1e33de4b7f3f17fd.setContent(html_27b24881c9d57c5c90e3b04996d694a6);
+            
+        
+
+        marker_260d35456f0b6f05f96e970a10b90082.bindPopup(popup_93b083a44b8654df1e33de4b7f3f17fd)
+        ;
+
+        
+    
+    
+            marker_260d35456f0b6f05f96e970a10b90082.bindTooltip(
+                `<div>
+                     Colusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5ec3fddc5406b88ea3fbb4619a71c8a = L.marker(
+                [37.91405956144038, -121.93153686068518],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_33cbf257c5c9332b97859688b1d96074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df65fffddf5ad9ebc14a4202b614e660 = $(`<div id="html_df65fffddf5ad9ebc14a4202b614e660" style="width: 100.0%; height: 100.0%;">Contra Costa<br>Aggravated Assault: 63,242.0<br>Murder: 1,774.0<br>Robbery: 43,809.0<br>Violent Crime Total: 113,693.0</div>`)[0];
+                popup_33cbf257c5c9332b97859688b1d96074.setContent(html_df65fffddf5ad9ebc14a4202b614e660);
+            
+        
+
+        marker_a5ec3fddc5406b88ea3fbb4619a71c8a.bindPopup(popup_33cbf257c5c9332b97859688b1d96074)
+        ;
+
+        
+    
+    
+            marker_a5ec3fddc5406b88ea3fbb4619a71c8a.bindTooltip(
+                `<div>
+                     Contra Costa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a19528ace891bb698ac2ce658fb0846d = L.marker(
+                [41.74302459980449, -123.89672300193008],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_f9d7ca7e301524da8edddb40df78a05d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc76ddddf497ff078e8bbff43abb80c5 = $(`<div id="html_cc76ddddf497ff078e8bbff43abb80c5" style="width: 100.0%; height: 100.0%;">Del Norte<br>Aggravated Assault: 1,677.0<br>Murder: 20.0<br>Robbery: 311.0<br>Violent Crime Total: 2,330.0</div>`)[0];
+                popup_f9d7ca7e301524da8edddb40df78a05d.setContent(html_cc76ddddf497ff078e8bbff43abb80c5);
+            
+        
+
+        marker_a19528ace891bb698ac2ce658fb0846d.bindPopup(popup_f9d7ca7e301524da8edddb40df78a05d)
+        ;
+
+        
+    
+    
+            marker_a19528ace891bb698ac2ce658fb0846d.bindTooltip(
+                `<div>
+                     Del Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ec74c2d2bfeaaaa266a2f1d0d7c7a36 = L.marker(
+                [38.77881183545268, -120.5245706879799],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_07c8aa19efa15eb6151b59a9f11d1949 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0568d818ccf551c2c883b18d04fae449 = $(`<div id="html_0568d818ccf551c2c883b18d04fae449" style="width: 100.0%; height: 100.0%;">El Dorado<br>Aggravated Assault: 8,145.0<br>Murder: 69.0<br>Robbery: 1,161.0<br>Violent Crime Total: 10,121.0</div>`)[0];
+                popup_07c8aa19efa15eb6151b59a9f11d1949.setContent(html_0568d818ccf551c2c883b18d04fae449);
+            
+        
+
+        marker_3ec74c2d2bfeaaaa266a2f1d0d7c7a36.bindPopup(popup_07c8aa19efa15eb6151b59a9f11d1949)
+        ;
+
+        
+    
+    
+            marker_3ec74c2d2bfeaaaa266a2f1d0d7c7a36.bindTooltip(
+                `<div>
+                     El Dorado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daa68def72381e56840672c5a460b775 = L.marker(
+                [36.75818258469853, -119.64940724696002],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_1af0269585bc9808d9479aba0423be6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b914b0662598eb432d4ff6895fc233 = $(`<div id="html_14b914b0662598eb432d4ff6895fc233" style="width: 100.0%; height: 100.0%;">Fresno<br>Aggravated Assault: 84,376.0<br>Murder: 1,609.0<br>Robbery: 39,750.0<br>Violent Crime Total: 131,286.0</div>`)[0];
+                popup_1af0269585bc9808d9479aba0423be6e.setContent(html_14b914b0662598eb432d4ff6895fc233);
+            
+        
+
+        marker_daa68def72381e56840672c5a460b775.bindPopup(popup_1af0269585bc9808d9479aba0423be6e)
+        ;
+
+        
+    
+    
+            marker_daa68def72381e56840672c5a460b775.bindTooltip(
+                `<div>
+                     Fresno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a2d0500fc1455ce1e2719d46d129c01 = L.marker(
+                [39.598334754234365, -122.39239334069815],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_fe8d0a128b35ee11d26e0cd399a315c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d715d0f14462d6cd09a17fbd4d3f3334 = $(`<div id="html_d715d0f14462d6cd09a17fbd4d3f3334" style="width: 100.0%; height: 100.0%;">Glenn<br>Aggravated Assault: 1,532.0<br>Murder: 12.0<br>Robbery: 221.0<br>Violent Crime Total: 1,897.0</div>`)[0];
+                popup_fe8d0a128b35ee11d26e0cd399a315c3.setContent(html_d715d0f14462d6cd09a17fbd4d3f3334);
+            
+        
+
+        marker_3a2d0500fc1455ce1e2719d46d129c01.bindPopup(popup_fe8d0a128b35ee11d26e0cd399a315c3)
+        ;
+
+        
+    
+    
+            marker_3a2d0500fc1455ce1e2719d46d129c01.bindTooltip(
+                `<div>
+                     Glenn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_156325c017563da6d1f1d2eb02272590 = L.marker(
+                [40.69871228330935, -123.87360084166782],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_f7d38a3192081f731d80a5dd603b5ffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b64d3aaf48cf11017235ed50af9a30a = $(`<div id="html_0b64d3aaf48cf11017235ed50af9a30a" style="width: 100.0%; height: 100.0%;">Humboldt<br>Aggravated Assault: 6,562.0<br>Murder: 110.0<br>Robbery: 2,504.0<br>Violent Crime Total: 10,351.0</div>`)[0];
+                popup_f7d38a3192081f731d80a5dd603b5ffd.setContent(html_0b64d3aaf48cf11017235ed50af9a30a);
+            
+        
+
+        marker_156325c017563da6d1f1d2eb02272590.bindPopup(popup_f7d38a3192081f731d80a5dd603b5ffd)
+        ;
+
+        
+    
+    
+            marker_156325c017563da6d1f1d2eb02272590.bindTooltip(
+                `<div>
+                     Humboldt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8124b739754623d7b6d3460164859285 = L.marker(
+                [33.03949750842296, -115.36538190993197],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_d7c1443ac596a0308420758c73b71c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0321ea84536847354265e74e1c6e09a5 = $(`<div id="html_0321ea84536847354265e74e1c6e09a5" style="width: 100.0%; height: 100.0%;">Imperial<br>Aggravated Assault: 11,392.0<br>Murder: 93.0<br>Robbery: 3,051.0<br>Violent Crime Total: 15,152.0</div>`)[0];
+                popup_d7c1443ac596a0308420758c73b71c4d.setContent(html_0321ea84536847354265e74e1c6e09a5);
+            
+        
+
+        marker_8124b739754623d7b6d3460164859285.bindPopup(popup_d7c1443ac596a0308420758c73b71c4d)
+        ;
+
+        
+    
+    
+            marker_8124b739754623d7b6d3460164859285.bindTooltip(
+                `<div>
+                     Imperial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c55e48621f73d5c10c4199216b942f8 = L.marker(
+                [36.511084753486166, -117.4107637453296],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_4e68ec80633198efbd16ec32ae597a3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff85ca46e8f934e7d363c799172f33e5 = $(`<div id="html_ff85ca46e8f934e7d363c799172f33e5" style="width: 100.0%; height: 100.0%;">Inyo<br>Aggravated Assault: 1,155.0<br>Murder: 7.0<br>Robbery: 98.0<br>Violent Crime Total: 1,360.0</div>`)[0];
+                popup_4e68ec80633198efbd16ec32ae597a3b.setContent(html_ff85ca46e8f934e7d363c799172f33e5);
+            
+        
+
+        marker_6c55e48621f73d5c10c4199216b942f8.bindPopup(popup_4e68ec80633198efbd16ec32ae597a3b)
+        ;
+
+        
+    
+    
+            marker_6c55e48621f73d5c10c4199216b942f8.bindTooltip(
+                `<div>
+                     Inyo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc8e9ca2b2ba22dc6d11573b8cf13c1a = L.marker(
+                [35.342778174230844, -118.72985148260057],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_43b4b3bc1148f253d7843c83a3ad19fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06966a5473da126a627d7c719a9fa77f = $(`<div id="html_06966a5473da126a627d7c719a9fa77f" style="width: 100.0%; height: 100.0%;">Kern<br>Aggravated Assault: 63,044.0<br>Murder: 1,238.0<br>Robbery: 23,625.0<br>Violent Crime Total: 91,756.0</div>`)[0];
+                popup_43b4b3bc1148f253d7843c83a3ad19fb.setContent(html_06966a5473da126a627d7c719a9fa77f);
+            
+        
+
+        marker_bc8e9ca2b2ba22dc6d11573b8cf13c1a.bindPopup(popup_43b4b3bc1148f253d7843c83a3ad19fb)
+        ;
+
+        
+    
+    
+            marker_bc8e9ca2b2ba22dc6d11573b8cf13c1a.bindTooltip(
+                `<div>
+                     Kern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35af8c7a7fe06f9e1853c4c5bb274bd2 = L.marker(
+                [36.07532489409383, -119.81552255728482],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_f938ff4bd1595287702d635737e63689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecb6eb521eeaecb63684a1a0686fb21c = $(`<div id="html_ecb6eb521eeaecb63684a1a0686fb21c" style="width: 100.0%; height: 100.0%;">Kings<br>Aggravated Assault: 9,416.0<br>Murder: 102.0<br>Robbery: 2,194.0<br>Violent Crime Total: 12,521.0</div>`)[0];
+                popup_f938ff4bd1595287702d635737e63689.setContent(html_ecb6eb521eeaecb63684a1a0686fb21c);
+            
+        
+
+        marker_35af8c7a7fe06f9e1853c4c5bb274bd2.bindPopup(popup_f938ff4bd1595287702d635737e63689)
+        ;
+
+        
+    
+    
+            marker_35af8c7a7fe06f9e1853c4c5bb274bd2.bindTooltip(
+                `<div>
+                     Kings
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5395565b88e5cd7677daab2c7612d18c = L.marker(
+                [39.09958398388938, -122.75315543324952],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_e4776fe9209332117918ce84cfa87e3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd094ced61778ac84d2d4c3b60e1a7e = $(`<div id="html_6cd094ced61778ac84d2d4c3b60e1a7e" style="width: 100.0%; height: 100.0%;">Lake<br>Aggravated Assault: 4,376.0<br>Murder: 68.0<br>Robbery: 704.0<br>Violent Crime Total: 5,631.0</div>`)[0];
+                popup_e4776fe9209332117918ce84cfa87e3b.setContent(html_6cd094ced61778ac84d2d4c3b60e1a7e);
+            
+        
+
+        marker_5395565b88e5cd7677daab2c7612d18c.bindPopup(popup_e4776fe9209332117918ce84cfa87e3b)
+        ;
+
+        
+    
+    
+            marker_5395565b88e5cd7677daab2c7612d18c.bindTooltip(
+                `<div>
+                     Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dba20d8b9c3db4f6fc20b7c775ea65c6 = L.marker(
+                [40.67360540239723, -120.59439821720208],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_144046f980e802c1d93fefb9b284c855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797bd092af1509165b7f8dea483aa225 = $(`<div id="html_797bd092af1509165b7f8dea483aa225" style="width: 100.0%; height: 100.0%;">Lassen<br>Aggravated Assault: 1,957.0<br>Murder: 18.0<br>Robbery: 197.0<br>Violent Crime Total: 2,386.0</div>`)[0];
+                popup_144046f980e802c1d93fefb9b284c855.setContent(html_797bd092af1509165b7f8dea483aa225);
+            
+        
+
+        marker_dba20d8b9c3db4f6fc20b7c775ea65c6.bindPopup(popup_144046f980e802c1d93fefb9b284c855)
+        ;
+
+        
+    
+    
+            marker_dba20d8b9c3db4f6fc20b7c775ea65c6.bindTooltip(
+                `<div>
+                     Lassen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae459209eaedfea1befe0de47de45cac = L.marker(
+                [34.32316666268175, -118.22439571094988],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_20d9a2fc2a90443378f2df3a93ce25f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3c52654943cf17a1c455a8bb8cf1f70 = $(`<div id="html_f3c52654943cf17a1c455a8bb8cf1f70" style="width: 100.0%; height: 100.0%;">Los Angeles<br>Aggravated Assault: 968,283.0<br>Murder: 22,561.0<br>Robbery: 680,566.0<br>Violent Crime Total: 1,733,133.0</div>`)[0];
+                popup_20d9a2fc2a90443378f2df3a93ce25f1.setContent(html_f3c52654943cf17a1c455a8bb8cf1f70);
+            
+        
+
+        marker_ae459209eaedfea1befe0de47de45cac.bindPopup(popup_20d9a2fc2a90443378f2df3a93ce25f1)
+        ;
+
+        
+    
+    
+            marker_ae459209eaedfea1befe0de47de45cac.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a2b143aa1cb0beaaae441120315a7ec = L.marker(
+                [37.21817041593574, -119.76250637300735],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_78d1f6e7aa341cb46f355d303d5af98e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf74bb2595a1fa3c8318e6e78b38ff0b = $(`<div id="html_cf74bb2595a1fa3c8318e6e78b38ff0b" style="width: 100.0%; height: 100.0%;">Madera<br>Aggravated Assault: 13,154.0<br>Murder: 166.0<br>Robbery: 3,698.0<br>Violent Crime Total: 17,948.0</div>`)[0];
+                popup_78d1f6e7aa341cb46f355d303d5af98e.setContent(html_cf74bb2595a1fa3c8318e6e78b38ff0b);
+            
+        
+
+        marker_9a2b143aa1cb0beaaae441120315a7ec.bindPopup(popup_78d1f6e7aa341cb46f355d303d5af98e)
+        ;
+
+        
+    
+    
+            marker_9a2b143aa1cb0beaaae441120315a7ec.bindTooltip(
+                `<div>
+                     Madera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9e83ce330122f96d44ad9d42d7fe0ea = L.marker(
+                [38.07266718360518, -122.7198774186225],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_835001b34f4fc4f3e0a29a0ee5423b85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b86f849c69bac54b8118f63f94651bc = $(`<div id="html_4b86f849c69bac54b8118f63f94651bc" style="width: 100.0%; height: 100.0%;">Marin<br>Aggravated Assault: 8,055.0<br>Murder: 65.0<br>Robbery: 3,380.0<br>Violent Crime Total: 12,617.0</div>`)[0];
+                popup_835001b34f4fc4f3e0a29a0ee5423b85.setContent(html_4b86f849c69bac54b8118f63f94651bc);
+            
+        
+
+        marker_a9e83ce330122f96d44ad9d42d7fe0ea.bindPopup(popup_835001b34f4fc4f3e0a29a0ee5423b85)
+        ;
+
+        
+    
+    
+            marker_a9e83ce330122f96d44ad9d42d7fe0ea.bindTooltip(
+                `<div>
+                     Marin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46aac5c6eca51107ed7ddc3e808adf79 = L.marker(
+                [37.58149635417182, -119.9055184400526],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_2c450cb8d861097e4635b927ed503945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afaac9705c6ea2fa3c550bd89c7e2239 = $(`<div id="html_afaac9705c6ea2fa3c550bd89c7e2239" style="width: 100.0%; height: 100.0%;">Mariposa<br>Aggravated Assault: 835.0<br>Murder: 6.0<br>Robbery: 23.0<br>Violent Crime Total: 930.0</div>`)[0];
+                popup_2c450cb8d861097e4635b927ed503945.setContent(html_afaac9705c6ea2fa3c550bd89c7e2239);
+            
+        
+
+        marker_46aac5c6eca51107ed7ddc3e808adf79.bindPopup(popup_2c450cb8d861097e4635b927ed503945)
+        ;
+
+        
+    
+    
+            marker_46aac5c6eca51107ed7ddc3e808adf79.bindTooltip(
+                `<div>
+                     Mariposa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_169ec768887407176b19e9f8b1e8e15d = L.marker(
+                [39.44020149551293, -123.39130950599854],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_9fb1e6ba118af3b444c1bc705dbf914a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a239d0f64f232b1ac07108386c8246d3 = $(`<div id="html_a239d0f64f232b1ac07108386c8246d3" style="width: 100.0%; height: 100.0%;">Mendocino<br>Aggravated Assault: 7,576.0<br>Murder: 93.0<br>Robbery: 907.0<br>Violent Crime Total: 9,268.0</div>`)[0];
+                popup_9fb1e6ba118af3b444c1bc705dbf914a.setContent(html_a239d0f64f232b1ac07108386c8246d3);
+            
+        
+
+        marker_169ec768887407176b19e9f8b1e8e15d.bindPopup(popup_9fb1e6ba118af3b444c1bc705dbf914a)
+        ;
+
+        
+    
+    
+            marker_169ec768887407176b19e9f8b1e8e15d.bindTooltip(
+                `<div>
+                     Mendocino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07df501021b13a83142eef41c2916c87 = L.marker(
+                [37.19194119936419, -120.71747994257157],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_cb60aeaef5b5cb0dc3cc316cfa81615f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5461def8872f8af8b1594b2d03f54bcc = $(`<div id="html_5461def8872f8af8b1594b2d03f54bcc" style="width: 100.0%; height: 100.0%;">Merced<br>Aggravated Assault: 27,231.0<br>Murder: 413.0<br>Robbery: 6,372.0<br>Violent Crime Total: 35,727.0</div>`)[0];
+                popup_cb60aeaef5b5cb0dc3cc316cfa81615f.setContent(html_5461def8872f8af8b1594b2d03f54bcc);
+            
+        
+
+        marker_07df501021b13a83142eef41c2916c87.bindPopup(popup_cb60aeaef5b5cb0dc3cc316cfa81615f)
+        ;
+
+        
+    
+    
+            marker_07df501021b13a83142eef41c2916c87.bindTooltip(
+                `<div>
+                     Merced
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89b3d994b704cc32fd42a05d8015fafc = L.marker(
+                [41.58984160137587, -120.72495987805],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_461ba713109ba0042a6aff7695b70445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e7d041485e8625911918d7a97c2ade = $(`<div id="html_13e7d041485e8625911918d7a97c2ade" style="width: 100.0%; height: 100.0%;">Modoc<br>Aggravated Assault: 487.0<br>Murder: 8.0<br>Robbery: 32.0<br>Violent Crime Total: 638.0</div>`)[0];
+                popup_461ba713109ba0042a6aff7695b70445.setContent(html_13e7d041485e8625911918d7a97c2ade);
+            
+        
+
+        marker_89b3d994b704cc32fd42a05d8015fafc.bindPopup(popup_461ba713109ba0042a6aff7695b70445)
+        ;
+
+        
+    
+    
+            marker_89b3d994b704cc32fd42a05d8015fafc.bindTooltip(
+                `<div>
+                     Modoc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33f2ec3791fba8de715f0ea1e77da2f1 = L.marker(
+                [37.938936371727024, -118.8867230744428],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_64e3dea4c7bdcf879278eb2406e7e6f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e45a81472e42c352efe7648e0e27d18 = $(`<div id="html_2e45a81472e42c352efe7648e0e27d18" style="width: 100.0%; height: 100.0%;">Mono<br>Aggravated Assault: 814.0<br>Murder: 4.0<br>Robbery: 118.0<br>Violent Crime Total: 1,063.0</div>`)[0];
+                popup_64e3dea4c7bdcf879278eb2406e7e6f3.setContent(html_2e45a81472e42c352efe7648e0e27d18);
+            
+        
+
+        marker_33f2ec3791fba8de715f0ea1e77da2f1.bindPopup(popup_64e3dea4c7bdcf879278eb2406e7e6f3)
+        ;
+
+        
+    
+    
+            marker_33f2ec3791fba8de715f0ea1e77da2f1.bindTooltip(
+                `<div>
+                     Mono
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e16d62c0db9b94a0b7ae17d4e9f84299 = L.marker(
+                [36.21679989973648, -121.23873379039394],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_1e7ec6376fab8eac25c87365921701ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693c6bba420e54824b940572f994f1b2 = $(`<div id="html_693c6bba420e54824b940572f994f1b2" style="width: 100.0%; height: 100.0%;">Monterey<br>Aggravated Assault: 33,247.0<br>Murder: 814.0<br>Robbery: 16,808.0<br>Violent Crime Total: 53,765.0</div>`)[0];
+                popup_1e7ec6376fab8eac25c87365921701ab.setContent(html_693c6bba420e54824b940572f994f1b2);
+            
+        
+
+        marker_e16d62c0db9b94a0b7ae17d4e9f84299.bindPopup(popup_1e7ec6376fab8eac25c87365921701ab)
+        ;
+
+        
+    
+    
+            marker_e16d62c0db9b94a0b7ae17d4e9f84299.bindTooltip(
+                `<div>
+                     Monterey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_052a1d80ed354f8a8da025de2c703c2f = L.marker(
+                [38.506335771548855, -122.33045469614143],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_a242cbe831bb30e0b985d504c2bb73bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38233bc09480e0e7b05eecd08b6c463e = $(`<div id="html_38233bc09480e0e7b05eecd08b6c463e" style="width: 100.0%; height: 100.0%;">Napa<br>Aggravated Assault: 8,522.0<br>Murder: 51.0<br>Robbery: 1,796.0<br>Violent Crime Total: 11,264.0</div>`)[0];
+                popup_a242cbe831bb30e0b985d504c2bb73bd.setContent(html_38233bc09480e0e7b05eecd08b6c463e);
+            
+        
+
+        marker_052a1d80ed354f8a8da025de2c703c2f.bindPopup(popup_a242cbe831bb30e0b985d504c2bb73bd)
+        ;
+
+        
+    
+    
+            marker_052a1d80ed354f8a8da025de2c703c2f.bindTooltip(
+                `<div>
+                     Napa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ced105ed1e03f04f7cad19e1a56a10d1 = L.marker(
+                [39.30134561669799, -120.76889223547575],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_dae3b3160b3beb65118b7b975ad1adf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf618b216185295a60e94f4d62aae632 = $(`<div id="html_cf618b216185295a60e94f4d62aae632" style="width: 100.0%; height: 100.0%;">Nevada<br>Aggravated Assault: 4,335.0<br>Murder: 30.0<br>Robbery: 467.0<br>Violent Crime Total: 5,260.0</div>`)[0];
+                popup_dae3b3160b3beb65118b7b975ad1adf2.setContent(html_cf618b216185295a60e94f4d62aae632);
+            
+        
+
+        marker_ced105ed1e03f04f7cad19e1a56a10d1.bindPopup(popup_dae3b3160b3beb65118b7b975ad1adf2)
+        ;
+
+        
+    
+    
+            marker_ced105ed1e03f04f7cad19e1a56a10d1.bindTooltip(
+                `<div>
+                     Nevada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e50c4396eb64d3cd27d86f95a50f79d = L.marker(
+                [33.70326716529043, -117.76078177393799],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_e9d6433aa3a03c8c2454dd833933c147 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43f9aa51d3ecc5d682a86bf48d2461de = $(`<div id="html_43f9aa51d3ecc5d682a86bf48d2461de" style="width: 100.0%; height: 100.0%;">Orange<br>Aggravated Assault: 125,125.0<br>Murder: 1,916.0<br>Robbery: 76,108.0<br>Violent Crime Total: 215,862.0</div>`)[0];
+                popup_e9d6433aa3a03c8c2454dd833933c147.setContent(html_43f9aa51d3ecc5d682a86bf48d2461de);
+            
+        
+
+        marker_4e50c4396eb64d3cd27d86f95a50f79d.bindPopup(popup_e9d6433aa3a03c8c2454dd833933c147)
+        ;
+
+        
+    
+    
+            marker_4e50c4396eb64d3cd27d86f95a50f79d.bindTooltip(
+                `<div>
+                     Orange
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_240a6a207b9c787e09bf8c242e2d74dd = L.marker(
+                [39.063468235022356, -120.71771061300772],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_4f2efeb9c24babd656b1d3e35e2e1a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58adbc79e99b5966953f92e65d54c1dc = $(`<div id="html_58adbc79e99b5966953f92e65d54c1dc" style="width: 100.0%; height: 100.0%;">Placer<br>Aggravated Assault: 11,131.0<br>Murder: 87.0<br>Robbery: 3,221.0<br>Violent Crime Total: 15,761.0</div>`)[0];
+                popup_4f2efeb9c24babd656b1d3e35e2e1a54.setContent(html_58adbc79e99b5966953f92e65d54c1dc);
+            
+        
+
+        marker_240a6a207b9c787e09bf8c242e2d74dd.bindPopup(popup_4f2efeb9c24babd656b1d3e35e2e1a54)
+        ;
+
+        
+    
+    
+            marker_240a6a207b9c787e09bf8c242e2d74dd.bindTooltip(
+                `<div>
+                     Placer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03b9a8a9206e51bc346978b31752a9a8 = L.marker(
+                [40.004570211277965, -120.83850449425606],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_bc90bd19363777909f8d7da6d4b23e95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_785bad772655eff94e91a9c660c75165 = $(`<div id="html_785bad772655eff94e91a9c660c75165" style="width: 100.0%; height: 100.0%;">Plumas<br>Aggravated Assault: 982.0<br>Murder: 13.0<br>Robbery: 40.0<br>Violent Crime Total: 1,183.0</div>`)[0];
+                popup_bc90bd19363777909f8d7da6d4b23e95.setContent(html_785bad772655eff94e91a9c660c75165);
+            
+        
+
+        marker_03b9a8a9206e51bc346978b31752a9a8.bindPopup(popup_bc90bd19363777909f8d7da6d4b23e95)
+        ;
+
+        
+    
+    
+            marker_03b9a8a9206e51bc346978b31752a9a8.bindTooltip(
+                `<div>
+                     Plumas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a258e40ba5c4e730004bfec18ac2c002 = L.marker(
+                [33.74367795938469, -115.99386693278063],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_74c5914033ff2ca21b7c3040af114d28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3896cb934b5278e5c98bb122e9675baf = $(`<div id="html_3896cb934b5278e5c98bb122e9675baf" style="width: 100.0%; height: 100.0%;">Riverside<br>Aggravated Assault: 129,009.0<br>Murder: 2,222.0<br>Robbery: 61,460.0<br>Violent Crime Total: 203,718.0</div>`)[0];
+                popup_74c5914033ff2ca21b7c3040af114d28.setContent(html_3896cb934b5278e5c98bb122e9675baf);
+            
+        
+
+        marker_a258e40ba5c4e730004bfec18ac2c002.bindPopup(popup_74c5914033ff2ca21b7c3040af114d28)
+        ;
+
+        
+    
+    
+            marker_a258e40ba5c4e730004bfec18ac2c002.bindTooltip(
+                `<div>
+                     Riverside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54e71b9c80fad43ba8e4beadf7eb120b = L.marker(
+                [38.454982841907444, -121.33845670326669],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_b0918bf8c5bc422a6158516773d73868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84dc2d2645c5c8cfd41fc10fc7c7a3a8 = $(`<div id="html_84dc2d2645c5c8cfd41fc10fc7c7a3a8" style="width: 100.0%; height: 100.0%;">Sacramento<br>Aggravated Assault: 108,279.0<br>Murder: 1,861.0<br>Robbery: 68,797.0<br>Violent Crime Total: 187,905.0</div>`)[0];
+                popup_b0918bf8c5bc422a6158516773d73868.setContent(html_84dc2d2645c5c8cfd41fc10fc7c7a3a8);
+            
+        
+
+        marker_54e71b9c80fad43ba8e4beadf7eb120b.bindPopup(popup_b0918bf8c5bc422a6158516773d73868)
+        ;
+
+        
+    
+    
+            marker_54e71b9c80fad43ba8e4beadf7eb120b.bindTooltip(
+                `<div>
+                     Sacramento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d8ae2f2c825cfc5b39b72b425014aa1 = L.marker(
+                [36.60574159107949, -121.07505054031712],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_27330948b646f0fbe88078b2d94509e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12de2f8c6e122e4422fd6bb0d89c395f = $(`<div id="html_12de2f8c6e122e4422fd6bb0d89c395f" style="width: 100.0%; height: 100.0%;">San Benito<br>Aggravated Assault: 4,433.0<br>Murder: 63.0<br>Robbery: 891.0<br>Violent Crime Total: 5,734.0</div>`)[0];
+                popup_27330948b646f0fbe88078b2d94509e6.setContent(html_12de2f8c6e122e4422fd6bb0d89c395f);
+            
+        
+
+        marker_2d8ae2f2c825cfc5b39b72b425014aa1.bindPopup(popup_27330948b646f0fbe88078b2d94509e6)
+        ;
+
+        
+    
+    
+            marker_2d8ae2f2c825cfc5b39b72b425014aa1.bindTooltip(
+                `<div>
+                     San Benito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d8a16ec0b5409d48da6fd3c214e7a82 = L.marker(
+                [34.84144314791096, -116.17842490504144],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_a6f489b17a4f5baa33c64f724ea4ebad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd29235d696b695bde8dccf152a5e361 = $(`<div id="html_dd29235d696b695bde8dccf152a5e361" style="width: 100.0%; height: 100.0%;">San Bernardino<br>Aggravated Assault: 150,554.0<br>Murder: 3,453.0<br>Robbery: 82,499.0<br>Violent Crime Total: 249,442.0</div>`)[0];
+                popup_a6f489b17a4f5baa33c64f724ea4ebad.setContent(html_dd29235d696b695bde8dccf152a5e361);
+            
+        
+
+        marker_9d8a16ec0b5409d48da6fd3c214e7a82.bindPopup(popup_a6f489b17a4f5baa33c64f724ea4ebad)
+        ;
+
+        
+    
+    
+            marker_9d8a16ec0b5409d48da6fd3c214e7a82.bindTooltip(
+                `<div>
+                     San Bernardino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2fbe6669f7a6e39aed3d46ae68a48bc = L.marker(
+                [33.0358316443703, -116.73302992104014],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_15c2da152cbc00f55b32e1a39ec5b04e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cdad55bc7f868f5fa0311f8ddb581f = $(`<div id="html_31cdad55bc7f868f5fa0311f8ddb581f" style="width: 100.0%; height: 100.0%;">San Diego<br>Aggravated Assault: 224,125.0<br>Murder: 2,519.0<br>Robbery: 97,117.0<br>Violent Crime Total: 343,723.0</div>`)[0];
+                popup_15c2da152cbc00f55b32e1a39ec5b04e.setContent(html_31cdad55bc7f868f5fa0311f8ddb581f);
+            
+        
+
+        marker_d2fbe6669f7a6e39aed3d46ae68a48bc.bindPopup(popup_15c2da152cbc00f55b32e1a39ec5b04e)
+        ;
+
+        
+    
+    
+            marker_d2fbe6669f7a6e39aed3d46ae68a48bc.bindTooltip(
+                `<div>
+                     San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3d948677c2baa110126810d6f2cb588 = L.marker(
+                [37.754959334056345, -122.44139601142281],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_d2fa76f2330675483e80eded96762a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb882bdea3aeb1fd6b956b9a2e42b3fe = $(`<div id="html_fb882bdea3aeb1fd6b956b9a2e42b3fe" style="width: 100.0%; height: 100.0%;">San Francisco<br>Aggravated Assault: 68,856.0<br>Murder: 1,972.0<br>Robbery: 98,112.0<br>Violent Crime Total: 173,690.0</div>`)[0];
+                popup_d2fa76f2330675483e80eded96762a59.setContent(html_fb882bdea3aeb1fd6b956b9a2e42b3fe);
+            
+        
+
+        marker_e3d948677c2baa110126810d6f2cb588.bindPopup(popup_d2fa76f2330675483e80eded96762a59)
+        ;
+
+        
+    
+    
+            marker_e3d948677c2baa110126810d6f2cb588.bindTooltip(
+                `<div>
+                     San Francisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d160af10a1881487d4baa443eb14b5ba = L.marker(
+                [37.934221968005566, -121.26987040456058],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_378c1093888e31b35bf11e02168474e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c323b037af9790dd28fb2891e2b938 = $(`<div id="html_63c323b037af9790dd28fb2891e2b938" style="width: 100.0%; height: 100.0%;">San Joaquin<br>Aggravated Assault: 91,484.0<br>Murder: 1,400.0<br>Robbery: 45,067.0<br>Violent Crime Total: 142,489.0</div>`)[0];
+                popup_378c1093888e31b35bf11e02168474e9.setContent(html_63c323b037af9790dd28fb2891e2b938);
+            
+        
+
+        marker_d160af10a1881487d4baa443eb14b5ba.bindPopup(popup_378c1093888e31b35bf11e02168474e9)
+        ;
+
+        
+    
+    
+            marker_d160af10a1881487d4baa443eb14b5ba.bindTooltip(
+                `<div>
+                     San Joaquin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8457edb502c7865a90f32ad0344036d = L.marker(
+                [35.387163002902945, -120.40399946479585],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_9695a442eac060d605b4ae82a298e2dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56852d27d6749271aa169bab2f6ca073 = $(`<div id="html_56852d27d6749271aa169bab2f6ca073" style="width: 100.0%; height: 100.0%;">San Luis Obispo<br>Aggravated Assault: 13,047.0<br>Murder: 103.0<br>Robbery: 2,147.0<br>Violent Crime Total: 17,513.0</div>`)[0];
+                popup_9695a442eac060d605b4ae82a298e2dc.setContent(html_56852d27d6749271aa169bab2f6ca073);
+            
+        
+
+        marker_e8457edb502c7865a90f32ad0344036d.bindPopup(popup_9695a442eac060d605b4ae82a298e2dc)
+        ;
+
+        
+    
+    
+            marker_e8457edb502c7865a90f32ad0344036d.bindTooltip(
+                `<div>
+                     San Luis Obispo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de27fe5814019eff08383833edc9e164 = L.marker(
+                [37.42216319997702, -122.3289357720441],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_270020dff98c47896011f5e66f228f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_779554e5f18086959df5783be37db054 = $(`<div id="html_779554e5f18086959df5783be37db054" style="width: 100.0%; height: 100.0%;">San Mateo<br>Aggravated Assault: 32,550.0<br>Murder: 480.0<br>Robbery: 17,310.0<br>Violent Crime Total: 54,193.0</div>`)[0];
+                popup_270020dff98c47896011f5e66f228f99.setContent(html_779554e5f18086959df5783be37db054);
+            
+        
+
+        marker_de27fe5814019eff08383833edc9e164.bindPopup(popup_270020dff98c47896011f5e66f228f99)
+        ;
+
+        
+    
+    
+            marker_de27fe5814019eff08383833edc9e164.bindTooltip(
+                `<div>
+                     San Mateo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_908b73b4088ebf99dc23f24d95dbdfbe = L.marker(
+                [34.67341671564525, -120.01654209317402],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_39ff9e412a33bdf674b74f01794dd096 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21490dab90d3559b381833c1cc57862e = $(`<div id="html_21490dab90d3559b381833c1cc57862e" style="width: 100.0%; height: 100.0%;">Santa Barbara<br>Aggravated Assault: 30,184.0<br>Murder: 236.0<br>Robbery: 7,229.0<br>Violent Crime Total: 40,817.0</div>`)[0];
+                popup_39ff9e412a33bdf674b74f01794dd096.setContent(html_21490dab90d3559b381833c1cc57862e);
+            
+        
+
+        marker_908b73b4088ebf99dc23f24d95dbdfbe.bindPopup(popup_39ff9e412a33bdf674b74f01794dd096)
+        ;
+
+        
+    
+    
+            marker_908b73b4088ebf99dc23f24d95dbdfbe.bindTooltip(
+                `<div>
+                     Santa Barbara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63c8b5ae482ba5f7a41ecb310805a2fe = L.marker(
+                [37.23150951325772, -121.69449780917058],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_c96b43f6932e82c03033a54f88887fd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afcbd1ad99ebec22871c250375a07cec = $(`<div id="html_afcbd1ad99ebec22871c250375a07cec" style="width: 100.0%; height: 100.0%;">Santa Clara<br>Aggravated Assault: 98,674.0<br>Murder: 1,162.0<br>Robbery: 38,603.0<br>Violent Crime Total: 149,570.0</div>`)[0];
+                popup_c96b43f6932e82c03033a54f88887fd6.setContent(html_afcbd1ad99ebec22871c250375a07cec);
+            
+        
+
+        marker_63c8b5ae482ba5f7a41ecb310805a2fe.bindPopup(popup_c96b43f6932e82c03033a54f88887fd6)
+        ;
+
+        
+    
+    
+            marker_63c8b5ae482ba5f7a41ecb310805a2fe.bindTooltip(
+                `<div>
+                     Santa Clara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb1df5b599bac0d3874e20830bc21506 = L.marker(
+                [37.05626704211926, -122.00154277163625],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_dfd68594cc88ab4dd287a2a28e90cc89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c4bb1f2463dba939b8ab7efb013205 = $(`<div id="html_b1c4bb1f2463dba939b8ab7efb013205" style="width: 100.0%; height: 100.0%;">Santa Cruz<br>Aggravated Assault: 20,220.0<br>Murder: 214.0<br>Robbery: 6,019.0<br>Violent Crime Total: 28,636.0</div>`)[0];
+                popup_dfd68594cc88ab4dd287a2a28e90cc89.setContent(html_b1c4bb1f2463dba939b8ab7efb013205);
+            
+        
+
+        marker_bb1df5b599bac0d3874e20830bc21506.bindPopup(popup_dfd68594cc88ab4dd287a2a28e90cc89)
+        ;
+
+        
+    
+    
+            marker_bb1df5b599bac0d3874e20830bc21506.bindTooltip(
+                `<div>
+                     Santa Cruz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b0e8b933df8e63af9f5c3207d6d33e6 = L.marker(
+                [40.763818883782385, -122.04045803324979],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_b06993f58f8ea603017efc536f8002a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b775f579a7fd56655ff7643e479265c = $(`<div id="html_9b775f579a7fd56655ff7643e479265c" style="width: 100.0%; height: 100.0%;">Shasta<br>Aggravated Assault: 16,996.0<br>Murder: 112.0<br>Robbery: 2,980.0<br>Violent Crime Total: 22,689.0</div>`)[0];
+                popup_b06993f58f8ea603017efc536f8002a2.setContent(html_9b775f579a7fd56655ff7643e479265c);
+            
+        
+
+        marker_6b0e8b933df8e63af9f5c3207d6d33e6.bindPopup(popup_b06993f58f8ea603017efc536f8002a2)
+        ;
+
+        
+    
+    
+            marker_6b0e8b933df8e63af9f5c3207d6d33e6.bindTooltip(
+                `<div>
+                     Shasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ec2f4d181d6764db2e6ad62af1ee350 = L.marker(
+                [39.58031497298322, -120.51593793961477],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_58e1db9b5cb6196828543f2c10257015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa4bb97a4862815a0ee17871cadad7c8 = $(`<div id="html_fa4bb97a4862815a0ee17871cadad7c8" style="width: 100.0%; height: 100.0%;">Sierra<br>Aggravated Assault: 139.0<br>Murder: 1.0<br>Robbery: 2.0<br>Violent Crime Total: 149.0</div>`)[0];
+                popup_58e1db9b5cb6196828543f2c10257015.setContent(html_fa4bb97a4862815a0ee17871cadad7c8);
+            
+        
+
+        marker_3ec2f4d181d6764db2e6ad62af1ee350.bindPopup(popup_58e1db9b5cb6196828543f2c10257015)
+        ;
+
+        
+    
+    
+            marker_3ec2f4d181d6764db2e6ad62af1ee350.bindTooltip(
+                `<div>
+                     Sierra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c7e650ac5f30a3090906817881bba96 = L.marker(
+                [41.592719306313235, -122.5402639453268],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_55693255e9533d4c8872808d78d4ca4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e04df675c29ade28ce47d72a092640e = $(`<div id="html_6e04df675c29ade28ce47d72a092640e" style="width: 100.0%; height: 100.0%;">Siskiyou<br>Aggravated Assault: 2,798.0<br>Murder: 36.0<br>Robbery: 287.0<br>Violent Crime Total: 3,510.0</div>`)[0];
+                popup_55693255e9533d4c8872808d78d4ca4b.setContent(html_6e04df675c29ade28ce47d72a092640e);
+            
+        
+
+        marker_3c7e650ac5f30a3090906817881bba96.bindPopup(popup_55693255e9533d4c8872808d78d4ca4b)
+        ;
+
+        
+    
+    
+            marker_3c7e650ac5f30a3090906817881bba96.bindTooltip(
+                `<div>
+                     Siskiyou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0b1d8b4414959b842c275937b023e1 = L.marker(
+                [38.27948523467577, -121.92832384446154],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_de9d6a88ea4a073849b1c5630b67aa4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d62fb8baed1ace1411037f91b1aade0 = $(`<div id="html_0d62fb8baed1ace1411037f91b1aade0" style="width: 100.0%; height: 100.0%;">Solano<br>Aggravated Assault: 34,978.0<br>Murder: 632.0<br>Robbery: 19,795.0<br>Violent Crime Total: 58,731.0</div>`)[0];
+                popup_de9d6a88ea4a073849b1c5630b67aa4c.setContent(html_0d62fb8baed1ace1411037f91b1aade0);
+            
+        
+
+        marker_2b0b1d8b4414959b842c275937b023e1.bindPopup(popup_de9d6a88ea4a073849b1c5630b67aa4c)
+        ;
+
+        
+    
+    
+            marker_2b0b1d8b4414959b842c275937b023e1.bindTooltip(
+                `<div>
+                     Solano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88d4eb8bd3e9f0958d0fd9babd59ca6b = L.marker(
+                [38.52854900867659, -122.88723394410232],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_01019ed11982e265f5f5bd222993214b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c2cae30aa96d5af6034b7af66ab77ab = $(`<div id="html_2c2cae30aa96d5af6034b7af66ab77ab" style="width: 100.0%; height: 100.0%;">Sonoma<br>Aggravated Assault: 33,037.0<br>Murder: 226.0<br>Robbery: 6,755.0<br>Violent Crime Total: 43,913.0</div>`)[0];
+                popup_01019ed11982e265f5f5bd222993214b.setContent(html_2c2cae30aa96d5af6034b7af66ab77ab);
+            
+        
+
+        marker_88d4eb8bd3e9f0958d0fd9babd59ca6b.bindPopup(popup_01019ed11982e265f5f5bd222993214b)
+        ;
+
+        
+    
+    
+            marker_88d4eb8bd3e9f0958d0fd9babd59ca6b.bindTooltip(
+                `<div>
+                     Sonoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_008c176cdc7a340c20a547cb5a144c3b = L.marker(
+                [37.559140766531016, -120.99759363633524],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_505faeff4ae6ebe1c650af35d2161104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f7cdccc4005741d9262cf69bdd1181 = $(`<div id="html_31f7cdccc4005741d9262cf69bdd1181" style="width: 100.0%; height: 100.0%;">Stanislaus<br>Aggravated Assault: 47,293.0<br>Murder: 703.0<br>Robbery: 18,351.0<br>Violent Crime Total: 69,962.0</div>`)[0];
+                popup_505faeff4ae6ebe1c650af35d2161104.setContent(html_31f7cdccc4005741d9262cf69bdd1181);
+            
+        
+
+        marker_008c176cdc7a340c20a547cb5a144c3b.bindPopup(popup_505faeff4ae6ebe1c650af35d2161104)
+        ;
+
+        
+    
+    
+            marker_008c176cdc7a340c20a547cb5a144c3b.bindTooltip(
+                `<div>
+                     Stanislaus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f02530fa4a61e33f21db99650227af0e = L.marker(
+                [39.03423909814196, -121.69475279534717],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_1acd8a5e8e39abe9239e501896804790 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fc97038096985a568709466274a23ac = $(`<div id="html_2fc97038096985a568709466274a23ac" style="width: 100.0%; height: 100.0%;">Sutter<br>Aggravated Assault: 5,333.0<br>Murder: 83.0<br>Robbery: 1,425.0<br>Violent Crime Total: 7,522.0</div>`)[0];
+                popup_1acd8a5e8e39abe9239e501896804790.setContent(html_2fc97038096985a568709466274a23ac);
+            
+        
+
+        marker_f02530fa4a61e33f21db99650227af0e.bindPopup(popup_1acd8a5e8e39abe9239e501896804790)
+        ;
+
+        
+    
+    
+            marker_f02530fa4a61e33f21db99650227af0e.bindTooltip(
+                `<div>
+                     Sutter
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6599dec28a1feab340202392c5a49f84 = L.marker(
+                [40.12580293122711, -122.23389960130235],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_6d3ce14d83a9a8b596122050cf81d16f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93528716ece51e28313dd42ed4db81f1 = $(`<div id="html_93528716ece51e28313dd42ed4db81f1" style="width: 100.0%; height: 100.0%;">Tehama<br>Aggravated Assault: 6,727.0<br>Murder: 50.0<br>Robbery: 586.0<br>Violent Crime Total: 7,758.0</div>`)[0];
+                popup_6d3ce14d83a9a8b596122050cf81d16f.setContent(html_93528716ece51e28313dd42ed4db81f1);
+            
+        
+
+        marker_6599dec28a1feab340202392c5a49f84.bindPopup(popup_6d3ce14d83a9a8b596122050cf81d16f)
+        ;
+
+        
+    
+    
+            marker_6599dec28a1feab340202392c5a49f84.bindTooltip(
+                `<div>
+                     Tehama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55220ad1b60a8df83b02e862c69657b1 = L.marker(
+                [40.650852404958364, -123.11254020865577],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_2ca0074714324970052b2c9ce82ec61f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d820ae1610ff3abeca80b18e9b9ddb4 = $(`<div id="html_3d820ae1610ff3abeca80b18e9b9ddb4" style="width: 100.0%; height: 100.0%;">Trinity<br>Aggravated Assault: 328.0<br>Murder: 15.0<br>Robbery: 41.0<br>Violent Crime Total: 430.0</div>`)[0];
+                popup_2ca0074714324970052b2c9ce82ec61f.setContent(html_3d820ae1610ff3abeca80b18e9b9ddb4);
+            
+        
+
+        marker_55220ad1b60a8df83b02e862c69657b1.bindPopup(popup_2ca0074714324970052b2c9ce82ec61f)
+        ;
+
+        
+    
+    
+            marker_55220ad1b60a8df83b02e862c69657b1.bindTooltip(
+                `<div>
+                     Trinity
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cab671a03336ecc5724f4c4ca0e9cac = L.marker(
+                [36.2201739033523, -118.80053111302723],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_3aafdb6031f083c150ee857d59760285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_622e7c6ae8fa7b96a7a2db0216168c3a = $(`<div id="html_622e7c6ae8fa7b96a7a2db0216168c3a" style="width: 100.0%; height: 100.0%;">Tulare<br>Aggravated Assault: 45,310.0<br>Murder: 804.0<br>Robbery: 11,229.0<br>Violent Crime Total: 60,297.0</div>`)[0];
+                popup_3aafdb6031f083c150ee857d59760285.setContent(html_622e7c6ae8fa7b96a7a2db0216168c3a);
+            
+        
+
+        marker_0cab671a03336ecc5724f4c4ca0e9cac.bindPopup(popup_3aafdb6031f083c150ee857d59760285)
+        ;
+
+        
+    
+    
+            marker_0cab671a03336ecc5724f4c4ca0e9cac.bindTooltip(
+                `<div>
+                     Tulare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1051e3755307a57bcd19dab2bd5d2388 = L.marker(
+                [38.027606092762554, -119.95486276028194],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_3d2c8147d301915050f7cac96476e8d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_205f0fd8986aa0784a31fe75aa436afe = $(`<div id="html_205f0fd8986aa0784a31fe75aa436afe" style="width: 100.0%; height: 100.0%;">Tuolumne<br>Aggravated Assault: 1,880.0<br>Murder: 20.0<br>Robbery: 319.0<br>Violent Crime Total: 2,491.0</div>`)[0];
+                popup_3d2c8147d301915050f7cac96476e8d0.setContent(html_205f0fd8986aa0784a31fe75aa436afe);
+            
+        
+
+        marker_1051e3755307a57bcd19dab2bd5d2388.bindPopup(popup_3d2c8147d301915050f7cac96476e8d0)
+        ;
+
+        
+    
+    
+            marker_1051e3755307a57bcd19dab2bd5d2388.bindTooltip(
+                `<div>
+                     Tuolumne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17fc3eec17d9503b840231bef33ac53a = L.marker(
+                [34.45702930278557, -119.08329373927067],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_31a7f19c95c98233470e1eb34e845b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_270fa8e5867128b8e6561b335914d8da = $(`<div id="html_270fa8e5867128b8e6561b335914d8da" style="width: 100.0%; height: 100.0%;">Ventura<br>Aggravated Assault: 29,254.0<br>Murder: 677.0<br>Robbery: 19,086.0<br>Violent Crime Total: 52,181.0</div>`)[0];
+                popup_31a7f19c95c98233470e1eb34e845b9f.setContent(html_270fa8e5867128b8e6561b335914d8da);
+            
+        
+
+        marker_17fc3eec17d9503b840231bef33ac53a.bindPopup(popup_31a7f19c95c98233470e1eb34e845b9f)
+        ;
+
+        
+    
+    
+            marker_17fc3eec17d9503b840231bef33ac53a.bindTooltip(
+                `<div>
+                     Ventura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f66b86c31c39b8ef5e81d56f848f1498 = L.marker(
+                [38.68655409612024, -121.90164512739479],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_06ab00b1faa33ab1f0be035c41c61661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75769c9b67aa5b3f5448e3425c890271 = $(`<div id="html_75769c9b67aa5b3f5448e3425c890271" style="width: 100.0%; height: 100.0%;">Yolo<br>Aggravated Assault: 13,367.0<br>Murder: 112.0<br>Robbery: 4,470.0<br>Violent Crime Total: 19,820.0</div>`)[0];
+                popup_06ab00b1faa33ab1f0be035c41c61661.setContent(html_75769c9b67aa5b3f5448e3425c890271);
+            
+        
+
+        marker_f66b86c31c39b8ef5e81d56f848f1498.bindPopup(popup_06ab00b1faa33ab1f0be035c41c61661)
+        ;
+
+        
+    
+    
+            marker_f66b86c31c39b8ef5e81d56f848f1498.bindTooltip(
+                `<div>
+                     Yolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27fb3c8c30e0429e32f93fdb89f3858e = L.marker(
+                [39.268960587896785, -121.35145871327653],
+                {}
+            ).addTo(marker_cluster_e1f800fca6e53d5c9b21657b159f8402);
+        
+    
+        var popup_de98091dd53a597f20a6d60891e6d2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf09f170baf935e326cf894129ec357e = $(`<div id="html_cf09f170baf935e326cf894129ec357e" style="width: 100.0%; height: 100.0%;">Yuba<br>Aggravated Assault: 4,557.0<br>Murder: 60.0<br>Robbery: 1,014.0<br>Violent Crime Total: 6,164.0</div>`)[0];
+                popup_de98091dd53a597f20a6d60891e6d2b9.setContent(html_cf09f170baf935e326cf894129ec357e);
+            
+        
+
+        marker_27fb3c8c30e0429e32f93fdb89f3858e.bindPopup(popup_de98091dd53a597f20a6d60891e6d2b9)
+        ;
+
+        
+    
+    
+            marker_27fb3c8c30e0429e32f93fdb89f3858e.bindTooltip(
+                `<div>
+                     Yuba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
